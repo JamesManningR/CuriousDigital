@@ -5,6 +5,10 @@
   "compilerOptions": {
     "paths": {
       "@scss": ["<rootDir>/assets/scss"]
-    }
-  }
+    },
+    // Add types folder to types
+    "types": [
+      "./@types"
+    ],
+  },
 }
